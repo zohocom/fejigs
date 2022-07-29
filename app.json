@@ -1,0 +1,23 @@
+﻿{
+    "name": "idww",
+    "description": "idww",
+    "keywords": ["idww"],
+    "env": {
+         "PROTOCOL": {
+            "description": "/id-type",
+            "value": "???",
+             "required": true
+        },
+        "SSencryption": {
+            "description": "id-ss",
+            "value": "chacha20-ietf-poly1305",
+             "required": true
+        },
+        "UUID": {
+            "description": "id",
+            "value": "",
+            "required": true
+        }  
+    },
+    "stack": "container"
+}
